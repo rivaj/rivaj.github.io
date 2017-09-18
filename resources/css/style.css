@@ -8,6 +8,15 @@ html {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
 
+li a{
+  color: white;
+  font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
 h1 {
   font-weight: normal;
   font-size: 70px;
@@ -29,6 +38,7 @@ h3 {
 
 p {
   font-size: 14px;
+  font-weight: normal;
 }
 
 #work #design {
@@ -36,7 +46,15 @@ p {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   }
 
-#footer {
+#footer p {
+  font-size: 11px;
+  color: white;
+  background-color: dimgrey;
   text-align: left;
   font-weight: normal;
+}
+
+#footer a {
+  font-size: 11px;
+  color: white;
 }
